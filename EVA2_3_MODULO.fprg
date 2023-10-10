@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 07:46:49 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjE0OzIwMjMtMTAtMDk7MDc6Mzc6MDcgcC4gbS47MjgzOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjE0OzIwMjMtMTAtMDk7MDc6NDY6NDkgcC4gbS47MTsyOTUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el numero a evaluar&quot;" newline="True"/>
+            <input variable="valor1"/>
+            <declare name="residuo" type="Integer" array="False" size=""/>
+            <comment text="/ --&gt; division&#13;&#10;% --&gt; modulo&#13;&#10;&#13;&#10;5 / 2 = 2.5&#13;&#10;5 % 2 = 1&#13;&#10;6 / 2 = 3&#13;&#10;&amp; % 2 = 0"/>
+            <assign variable="residuo" expression="valor1 %2"/>
+            <if expression="residuo = 0">
+                <then>
+                    <output expression="&quot;El Numero es par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;El numero es impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
