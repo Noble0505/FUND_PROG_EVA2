@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 08:28:52 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTA1OzIwMjMtMTAtMDI7MDg6MTQ6MzEgcC4gbS47MjgyNA=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTA1OzIwMjMtMTAtMDI7MDg6Mjg6NTIgcC4gbS47MTsyOTQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce tu calificacion&quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Tu calificacion es: &quot; &amp;califa&amp; &quot;.  &#161;&#161;Felicidades!!, aprobaste!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tu calificacion es: &quot; &amp;califa&amp; &quot;.  Lo siento, reprobaste :c&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;fin del codigo ya vete a tu casa a dormir chamaco meao&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
